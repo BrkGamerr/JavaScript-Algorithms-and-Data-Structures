@@ -1,0 +1,50 @@
+/* ---------------------- General Section ---------------------- */
+
+body {
+	background-color: #0a0a23;
+}
+
+button {
+	background-color: #feac32;
+	background-image: linear-gradient(#fecc4c, #ffac33);
+	border: 3px solid #feac32;
+	color: #0a0a23;
+	cursor: pointer;
+}
+
+/* ---------------------- IDs Section ---------------------- */
+
+#game {
+	background-color: #ffffff;
+	color: #ffffff;
+	margin: 30px auto 0 auto;
+	max-height: 400px;
+	max-width: 500px;
+	padding: 10px;
+}
+
+#controls, #stats {
+	border: 1px solid #0a0a23;
+	color: #0a0a23;
+	padding: 5px;
+}
+
+#monsterStats {
+	background: #c70d0d;
+	border: 1px solid #0a0a23;
+	color: #ffffff;
+	display: none;
+	padding: 5px;
+}
+
+#text {
+	background-color: #0a0a23;
+	color: #ffffff;
+	padding: 10px;
+}
+
+/* ---------------------- Styles Section ---------------------- */
+
+.stat {
+	padding-right: 10px;
+}
